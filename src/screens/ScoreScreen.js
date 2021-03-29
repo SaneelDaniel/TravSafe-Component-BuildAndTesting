@@ -33,10 +33,10 @@ const ScoreScreen = () => {
               containerStyle={{ flex: 1, width: 50 }}
               source={{
                 uri:
-                  "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+                  "https://pattitravels.files.wordpress.com/2018/01/safe-travel.jpg",
               }}
             ></Card.Image>
-            <Text containerStyle={{ flex: 2 }}> The Text will go here</Text>
+            <Text containerStyle={{ flex: 2, maxWidth: '50% !important', objectFit: 'contain' }}> The Travel Safety Score </Text>
           </View>
         </Card>
 
@@ -52,10 +52,10 @@ const ScoreScreen = () => {
               containerStyle={{ flex: 1, width: 50 }}
               source={{
                 uri:
-                  "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg",
+                  "https://www.cdc.gov/coronavirus/2019-ncov/travelers/images/COVID-19-Global-Travel-Badge_300x250.jpg",
               }}
             ></Card.Image>
-            <Text containerStyle={{ flex: 2 }}> The Text will go here</Text>
+            <Text containerStyle={{ flex: 2 }}> The Covid Safety Score </Text>
           </View>
         </Card>
       </View>
