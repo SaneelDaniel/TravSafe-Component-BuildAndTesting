@@ -33,4 +33,6 @@ This repo only holds a basic starter model for the project
 
 ## The Components in this repo do as following
 
+(gif is slow, please bear with it)
+
 ![working](images/RPReplay_Final1613602495.gif)
